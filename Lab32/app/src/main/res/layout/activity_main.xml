@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:stretchColumns="2">
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="5" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/gender" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_span="2"
+            android:layout_column="1">
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/receive" />
+
+        <CheckBox
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/email"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:text="@string/enroll" />
+    </TableRow>
+</TableLayout>
+
+
+
+

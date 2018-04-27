@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab32</string>
+    <string name="sms">SMS</string>
+    <string name="email">EMAIL</string>
+    <string name="receive">receive </string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="gender">gender</string>
+    <string name="name">name</string>
+    <string name="back">back</string>
+    <string name="enroll">enroll</string>
+</resources>
